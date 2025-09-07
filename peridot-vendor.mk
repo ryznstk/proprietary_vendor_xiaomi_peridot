@@ -576,54 +576,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/peridot/proprietary/odm/etc/sensors/config/sns_tilt_sw_enabled.json:$(TARGET_COPY_OUT_ODM)/etc/sensors/config/sns_tilt_sw_enabled.json \
     vendor/xiaomi/peridot/proprietary/odm/etc/sensors/config/sns_tilt_to_wake.json:$(TARGET_COPY_OUT_ODM)/etc/sensors/config/sns_tilt_to_wake.json \
     vendor/xiaomi/peridot/proprietary/odm/etc/surfaceflinger/dolby_vision.cfg:$(TARGET_COPY_OUT_ODM)/etc/surfaceflinger/dolby_vision.cfg \
-    vendor/xiaomi/peridot/proprietary/odm/etc/thermal-4k.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-4k.conf \
-    vendor/xiaomi/peridot/proprietary/odm/etc/thermal-arvr.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-arvr.conf \
-    vendor/xiaomi/peridot/proprietary/odm/etc/thermal-boost.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-boost.conf \
-    vendor/xiaomi/peridot/proprietary/odm/etc/thermal-camera.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-camera.conf \
-    vendor/xiaomi/peridot/proprietary/odm/etc/thermal-cclassvideo.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-cclassvideo.conf \
-    vendor/xiaomi/peridot/proprietary/odm/etc/thermal-cgame.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-cgame.conf \
-    vendor/xiaomi/peridot/proprietary/odm/etc/thermal-chg-only.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-chg-only.conf \
-    vendor/xiaomi/peridot/proprietary/odm/etc/thermal-class0.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-class0.conf \
-    vendor/xiaomi/peridot/proprietary/odm/etc/thermal-highfps.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-highfps.conf \
-    vendor/xiaomi/peridot/proprietary/odm/etc/thermal-hp-mgame.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-hp-mgame.conf \
-    vendor/xiaomi/peridot/proprietary/odm/etc/thermal-hp-normal.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-hp-normal.conf \
-    vendor/xiaomi/peridot/proprietary/odm/etc/thermal-huanji.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-huanji.conf \
-    vendor/xiaomi/peridot/proprietary/odm/etc/thermal-india-4k.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-india-4k.conf \
-    vendor/xiaomi/peridot/proprietary/odm/etc/thermal-india-arvr.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-india-arvr.conf \
-    vendor/xiaomi/peridot/proprietary/odm/etc/thermal-india-camera.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-india-camera.conf \
-    vendor/xiaomi/peridot/proprietary/odm/etc/thermal-india-cclassvideo.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-india-cclassvideo.conf \
-    vendor/xiaomi/peridot/proprietary/odm/etc/thermal-india-cgame.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-india-cgame.conf \
-    vendor/xiaomi/peridot/proprietary/odm/etc/thermal-india-class0.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-india-class0.conf \
-    vendor/xiaomi/peridot/proprietary/odm/etc/thermal-india-highfps.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-india-highfps.conf \
-    vendor/xiaomi/peridot/proprietary/odm/etc/thermal-india-hp-mgame.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-india-hp-mgame.conf \
-    vendor/xiaomi/peridot/proprietary/odm/etc/thermal-india-hp-normal.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-india-hp-normal.conf \
-    vendor/xiaomi/peridot/proprietary/odm/etc/thermal-india-huanji.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-india-huanji.conf \
-    vendor/xiaomi/peridot/proprietary/odm/etc/thermal-india-mgame.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-india-mgame.conf \
-    vendor/xiaomi/peridot/proprietary/odm/etc/thermal-india-navigation.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-india-navigation.conf \
-    vendor/xiaomi/peridot/proprietary/odm/etc/thermal-india-nolimits.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-india-nolimits.conf \
-    vendor/xiaomi/peridot/proprietary/odm/etc/thermal-india-normal.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-india-normal.conf \
-    vendor/xiaomi/peridot/proprietary/odm/etc/thermal-india-per-class0.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-india-per-class0.conf \
-    vendor/xiaomi/peridot/proprietary/odm/etc/thermal-india-per-normal.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-india-per-normal.conf \
-    vendor/xiaomi/peridot/proprietary/odm/etc/thermal-india-per-video.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-india-per-video.conf \
-    vendor/xiaomi/peridot/proprietary/odm/etc/thermal-india-phone.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-india-phone.conf \
-    vendor/xiaomi/peridot/proprietary/odm/etc/thermal-india-tgame.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-india-tgame.conf \
-    vendor/xiaomi/peridot/proprietary/odm/etc/thermal-india-video.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-india-video.conf \
-    vendor/xiaomi/peridot/proprietary/odm/etc/thermal-india-videochat.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-india-videochat.conf \
-    vendor/xiaomi/peridot/proprietary/odm/etc/thermal-india-yuanshen.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-india-yuanshen.conf \
-    vendor/xiaomi/peridot/proprietary/odm/etc/thermal-map-india.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-map-india.conf \
-    vendor/xiaomi/peridot/proprietary/odm/etc/thermal-mgame.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-mgame.conf \
-    vendor/xiaomi/peridot/proprietary/odm/etc/thermal-navigation.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-navigation.conf \
-    vendor/xiaomi/peridot/proprietary/odm/etc/thermal-nolimits.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-nolimits.conf \
-    vendor/xiaomi/peridot/proprietary/odm/etc/thermal-normal.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-normal.conf \
-    vendor/xiaomi/peridot/proprietary/odm/etc/thermal-per-class0.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-per-class0.conf \
-    vendor/xiaomi/peridot/proprietary/odm/etc/thermal-per-normal.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-per-normal.conf \
-    vendor/xiaomi/peridot/proprietary/odm/etc/thermal-per-video.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-per-video.conf \
-    vendor/xiaomi/peridot/proprietary/odm/etc/thermal-phone.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-phone.conf \
-    vendor/xiaomi/peridot/proprietary/odm/etc/thermal-region-map.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-region-map.conf \
-    vendor/xiaomi/peridot/proprietary/odm/etc/thermal-tgame.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-tgame.conf \
-    vendor/xiaomi/peridot/proprietary/odm/etc/thermal-video.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-video.conf \
-    vendor/xiaomi/peridot/proprietary/odm/etc/thermal-videochat.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-videochat.conf \
-    vendor/xiaomi/peridot/proprietary/odm/etc/thermal-yuanshen.conf:$(TARGET_COPY_OUT_ODM)/etc/thermal-yuanshen.conf \
     vendor/xiaomi/peridot/proprietary/odm/etc/usecaseKvManager.xml:$(TARGET_COPY_OUT_ODM)/etc/usecaseKvManager.xml \
     vendor/xiaomi/peridot/proprietary/odm/firmware/CAMERA_ICP.b00:$(TARGET_COPY_OUT_ODM)/firmware/CAMERA_ICP.b00 \
     vendor/xiaomi/peridot/proprietary/odm/firmware/CAMERA_ICP.b01:$(TARGET_COPY_OUT_ODM)/firmware/CAMERA_ICP.b01 \
@@ -924,7 +876,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/peridot/proprietary/vendor/etc/init/dpmQmiMgr.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dpmQmiMgr.rc \
     vendor/xiaomi/peridot/proprietary/vendor/etc/init/feature_enabler_client.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/feature_enabler_client.rc \
     vendor/xiaomi/peridot/proprietary/vendor/etc/init/hw/init.batterysecret.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.batterysecret.rc \
-    vendor/xiaomi/peridot/proprietary/vendor/etc/init/hw/init.mi_thermald.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.mi_thermald.rc \
     vendor/xiaomi/peridot/proprietary/vendor/etc/init/hw/init.qti.kernel.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.qti.kernel.rc \
     vendor/xiaomi/peridot/proprietary/vendor/etc/init/ims-dataservice-daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ims-dataservice-daemon.rc \
     vendor/xiaomi/peridot/proprietary/vendor/etc/init/ims_rtp_daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ims_rtp_daemon.rc \
@@ -1051,9 +1002,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/peridot/proprietary/vendor/etc/ssg/ta_config.json:$(TARGET_COPY_OUT_VENDOR)/etc/ssg/ta_config.json \
     vendor/xiaomi/peridot/proprietary/vendor/etc/ssg/tz_whitelist.json:$(TARGET_COPY_OUT_VENDOR)/etc/ssg/tz_whitelist.json \
     vendor/xiaomi/peridot/proprietary/vendor/etc/telephony_packages.xml:$(TARGET_COPY_OUT_VENDOR)/etc/telephony_packages.xml \
-    vendor/xiaomi/peridot/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
-    vendor/xiaomi/peridot/proprietary/vendor/etc/thermal-map.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-map.conf \
-    vendor/xiaomi/peridot/proprietary/vendor/etc/thermald-devices.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermald-devices.conf \
     vendor/xiaomi/peridot/proprietary/vendor/etc/wfdconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wfdconfig.xml \
     vendor/xiaomi/peridot/proprietary/vendor/etc/xiaomi_ecc_list.xml:$(TARGET_COPY_OUT_VENDOR)/etc/xiaomi_ecc_list.xml \
     vendor/xiaomi/peridot/proprietary/vendor/etc/xiaomi_ecc_list_preference.xml:$(TARGET_COPY_OUT_VENDOR)/etc/xiaomi_ecc_list_preference.xml \
@@ -2426,7 +2374,6 @@ PRODUCT_PACKAGES += \
     ks \
     loc_launcher \
     lowi-server \
-    mi_thermald \
     mlid \
     nicmd \
     nv_mac \
