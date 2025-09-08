@@ -2407,6 +2407,7 @@ PRODUCT_PACKAGES += \
     ssgtzd \
     system_dlkm_modprobe \
     tftp_server \
+    thermal-engine-v2 \
     time_daemon \
     tlpd \
     vendor.dpmd \
