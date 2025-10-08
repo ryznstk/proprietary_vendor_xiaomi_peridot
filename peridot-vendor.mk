@@ -1227,6 +1227,7 @@ PRODUCT_PACKAGES += \
     libllvm-glnext \
     libllvm-qcom \
     libllvm-qgl \
+    liblmthermallistner \
     libloadtrusteduiapp \
     libloc_api_v02 \
     libloc_api_wds \
