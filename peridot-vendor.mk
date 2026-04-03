@@ -1577,6 +1577,7 @@ PRODUCT_PACKAGES += \
     sensors.qsh \
     libasphere \
     libquasar \
+    libshoebox \
     vendor.display.color@1.0 \
     vendor.display.color@1.1 \
     vendor.display.color@1.2 \
