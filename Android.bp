@@ -22680,6 +22680,7 @@ cc_prebuilt_library_shared {
                 "libcutils",
                 "libutils",
                 "liblog",
+                "libion",
                 "libQSEEComAPI",
                 "libdmabufheap",
                 "libc++",
