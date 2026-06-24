@@ -21920,6 +21920,7 @@ cc_prebuilt_library_shared {
     strip: {
         none: true,
     },
+    check_elf_files: false,
     target: {
         android_arm64: {
             srcs: [
@@ -22034,6 +22035,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwfdservice",
+check_elf_files: false,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -41144,6 +41146,7 @@ cc_prebuilt_binary {
                 "libutils",
                 "liblog",
                 "libQSEEComAPI",
+                "libion",
                 "libdmabufheap",
                 "libminkdescriptor",
                 "libc++",
