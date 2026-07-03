@@ -505,10 +505,10 @@
     <EccEntry Ecc="198" Category="0" Condition="2" Plmn = "605 FFF" />
 
     <!--add Egypt xiaomi -->
-    <EccEntry Ecc="122" Category="0" Condition="1" Plmn = "602 FFF" />
-    <EccEntry Ecc="123" Category="0" Condition="2" Plmn = "602 FFF" />
-    <EccEntry Ecc="180" Category="0" Condition="2" Plmn = "602 FFF" />
-    <EccEntry Ecc="126" Category="0" Condition="2" Plmn = "602 FFF" />
+    <EccEntry Ecc="122" Category="1" Condition="1" Plmn = "602 FFF" />
+    <EccEntry Ecc="123" Category="2" Condition="2" Plmn = "602 FFF" />
+    <EccEntry Ecc="180" Category="4" Condition="2" Plmn = "602 FFF" />
+    <EccEntry Ecc="126" Category="0" Condition="5" Plmn = "602 FFF" />
     <!--add Egypt xiaomi -->
 
     <!--add Salvador xiaomi -->
