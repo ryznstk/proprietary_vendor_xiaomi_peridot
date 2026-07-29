@@ -1286,8 +1286,6 @@ PRODUCT_PACKAGES += \
     libVkLayer_ADRENO_qprofiler \
     libadreno_compiler_cl \
     libgpudataproducer \
-    liblmthermallistner \
-    liblmutils-ns \
     libloadtrusteduiapp \
     libloc_api_v02 \
     libloc_api_wds \
