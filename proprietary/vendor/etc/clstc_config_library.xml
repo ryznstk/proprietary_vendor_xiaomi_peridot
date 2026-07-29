@@ -34,7 +34,11 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 -->
 
 <clstc_libs>
-    
+    <library>
+        <name>libdolbyclstc.so</name>
+        <priority>1</priority>
+        <enable>1</enable>
+    </library>
     <library>
         <name>libclstc_algorithm_adapter.so</name>
         <priority>2</priority>
