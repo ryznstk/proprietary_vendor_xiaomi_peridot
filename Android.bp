@@ -41140,37 +41140,6 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-    name: "qseecom_sample_client",
-    owner: "xiaomi",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/qseecom_sample_client",
-            ],
-            shared_libs: [
-                "libcutils",
-                "libutils",
-                "liblog",
-                "libQSEEComAPI",
-                "libion",
-                "libdmabufheap",
-                "libminkdescriptor",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
     name: "qseecomd",
     owner: "xiaomi",
     target: {
