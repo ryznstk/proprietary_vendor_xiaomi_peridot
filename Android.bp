@@ -22691,7 +22691,6 @@ cc_prebuilt_library_shared {
                 "liblog",
                 "libQSEEComAPI",
                 "libdmabufheap",
-                "libion",
                 "libc++",
                 "libc",
                 "libm",
