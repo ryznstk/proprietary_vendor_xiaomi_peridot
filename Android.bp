@@ -12,7 +12,7 @@ soong_namespace {
         "hardware/google/interfaces",
         "hardware/google/pixel/pixelstats",
         "hardware/google/pixel/power-libperfmgr",
-        "hardware/lineage/interfaces/power-libperfmgr",
+        "hardware/xperience/interfaces/power-libperfmgr",
         "vendor/qcom/opensource/commonsys/display",
         "vendor/qcom/opensource/commonsys-intf/display",
         "vendor/qcom/opensource/dataservices",
@@ -17887,7 +17887,7 @@ cc_prebuilt_library_shared {
     },
     compile_multilib: "64",
     prefer: true,
-    soc_specific: true,
+    system_ext_specific: true,
 }
 
 cc_prebuilt_library_shared {
