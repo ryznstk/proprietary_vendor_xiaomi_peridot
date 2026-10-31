@@ -1200,6 +1200,7 @@ PRODUCT_PACKAGES += \
     libgralloccore \
     libgrallocutils \
     libgsl \
+    libgsc \
     libhdcp1prov \
     libhdcp2p2prov \
     libhdcpsrm \
